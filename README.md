@@ -9,6 +9,10 @@ Welcome to the Gesture Control Attendance System! This system allows you to take
    python -m venv venv
    ```
 
+   ```
+   /venv/Scripts/activate.ps1
+   ```
+
 
 2. **Download Dlib**: Visit the [GitHub repository](https://github.com/z-mahmud22/Dlib_Windows_Python3.x) and download the Dlib library. Follow the instructions provided in the repository to ensure you download the correct version for your system.
 
