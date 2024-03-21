@@ -1,0 +1,36 @@
+# Ignore compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore dependencies
+/bower_components
+
+# Ignore logs and databases
+*.log
+*.sqlite
+
+# Ignore environment-specific files
+.env
+
+# Ignore IDE or editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore all JSON files
+*.json
+
+# Ignore files named "encode.p"
+encode.p
+
+# Ignore Python virtual environment directory
+venv/
+
+main2.py
