@@ -31,7 +31,7 @@ Welcome to the Gesture Control Attendance System! This system allows you to take
             pip install [path_to_downloaded_file]\[dlib_library_file_name].whl
             ```
 
-            For example:
+    For example:
 
             ```
             pip install C:\Downloads\dlib-19.22.0-cp39-cp39-win_amd64.whl
