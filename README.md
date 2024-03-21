@@ -27,15 +27,20 @@ For Windows users:
    - Open a command prompt.
    - Navigate to the directory where you downloaded the Dlib library.
    - Use pip to install the library by running the following command, replacing `[path_to_downloaded_file]` with the actual path to the downloaded file and `[python_version]` with your Python version:
+
+
      ```
      pip install [path_to_downloaded_file]\[dlib_library_file_name].whl
      ```
+
      For example:
+
      ```
      pip install C:\Downloads\dlib-19.22.0-cp39-cp39-win_amd64.whl
      ```
 
    Make sure to adjust the file name and path according to the version you downloaded and your Python version.
+
 
 ```bash
 pip install path/to/the/dlibfile/
