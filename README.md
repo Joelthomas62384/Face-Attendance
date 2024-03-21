@@ -15,6 +15,11 @@ Welcome to the Gesture Control Attendance System! This system allows you to take
    ```
 
 3. **Download Dlib**: Download the Dlib library from [GitHub](https://github.com/z-mahmud22/Dlib_Windows_Python3.x) and install it according to the instructions provided.
+Then insall it using pip copying the path of the downloaded file according to your python version
+
+```bash
+pip install path/to/the/dlibfile/
+```
 
 ## Database Setup
 
