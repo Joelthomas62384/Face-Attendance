@@ -1,75 +1,47 @@
 # Gesture Control Attendance System
 
-Welcome to the Gesture Control Attendance System! This system allows you to manage attendance using gestures captured via a camera. Follow the steps below to set up and run the system effectively.
+Welcome to the Gesture Control Attendance System! This system allows you to take attendance using gestures captured through a camera. Follow the steps below to set up and use the system.
 
-## Setup Instructions
+## Installation
 
-### 1. Virtual Environment
+1. **Create Virtual Environment**: Set up a Python virtual environment using `venv`:
+   ```bash
+   python -m venv venv
+   ```
 
-First, create a virtual environment to manage dependencies. Run the following command in your terminal:
+2. **Install Dependencies**: Install required Python packages from `requirements.txt`:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-```bash
-python -m venv venv
-```
+3. **Download Dlib**: Download the Dlib library from [external link](your-link-here) and install it according to the instructions provided.
 
-Activate the virtual environment:
+## Database Setup
 
-- **For Windows**:
+1. **Firebase Database**: Set up your Firebase database and obtain the `serviceAccountKey.json` file.
 
-```bash
-venv\Scripts\activate
-```
+## Getting Started
 
-- **For macOS and Linux**:
+1. **Add Student Images**: Place the images of students in the `images` folder.
 
-```bash
-source venv/bin/activate
-```
+2. **Image Resizer**: Run `image_resizer.py` to resize the images for better processing.
 
-### 2. Install Dependencies
+3. **Add to Database**: Run `AddtoDataBase.py` to add student information to the database.
 
-Install the required packages using the `requirements.txt` file:
+4. **Encode Generator**: Add your storage bucket to `Encode Generator.py` and run the script to generate encodings.
 
-```bash
-pip install -r requirements.txt
-```
+5. **Attendance Registration**: Run `main.py` to start capturing gestures and register attendance.
 
-### 3. Download Dlib
+6. **View Attendance**: Run `app.py` to view the attendance table.
 
-Download the Dlib library from external links and follow the installation instructions provided.
+## Supported Formats
 
-### 4. Set Up Firebase Database
+The system supports image formats: JPEG, JPG, and PNG.
 
-Set up a Firebase database for storing attendance records. Ensure you have the necessary permissions and credentials.
+## License
 
-### 5. Download Service Account Key
+This project is licensed to Joel Thomas. See the [LICENSE](LICENSE) file for details.
 
-Download the `ServiceAccountKey.json` file from your Firebase project and place it in the project directory.
+For any questions or issues, please contact kattuparamban1103@gmail.com.
 
-### 6. Code Setup
-
-1. Bring the code from the designated location into your project directory.
-
-2. Add images of the students to the `images` folder.
-
-3. Run `image_resizer.py` to resize images.
-
-4. Run `AddtoDataBase.py` to add resized images to the database.
-
-5. Add storage bucket to `EncodeGenerator.py`.
-
-### 7. Running the System
-
-- Run `main.py` to register attendance using gestures.
-
-- Run `app.py` to view the attendance table.
-
-## Additional Notes
-
-- Ensure that your camera is correctly configured and accessible by the system.
-
-- Follow proper lighting conditions for accurate gesture detection.
-
-- Troubleshoot any issues by referring to the system documentation or seeking assistance from the developers.
-
-Happy attendance management with Gesture Control Attendance System! 🎉
+Thank you for using the Gesture Control Attendance System!
