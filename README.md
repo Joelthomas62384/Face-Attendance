@@ -9,7 +9,38 @@ Welcome to the Gesture Control Attendance System! This system allows you to take
    python -m venv venv
    ```
 
-2. **Install Dependencies**: Install required Python packages from `requirements.txt`:
+
+2. **Download Dlib**: Visit the [GitHub repository](https://github.com/z-mahmud22/Dlib_Windows_Python3.x) and download the Dlib library. Follow the instructions provided in the repository to ensure you download the correct version for your system.
+
+   - For Windows users, download the Dlib library from the provided GitHub link.
+   - For other operating systems, please refer to the official Dlib documentation for installation instructions.
+
+   Once downloaded, proceed with the installation according to your operating system and Python version.
+
+    For Windows users:
+        - Open a command prompt.
+        - Navigate to the directory where you downloaded the Dlib library.
+        - Use pip to install the library by running the following command, replacing `[path_to_downloaded_file]` with the actual path to the downloaded file and `[python_version]` with your Python version:
+
+
+            ```
+            pip install [path_to_downloaded_file]\[dlib_library_file_name].whl
+            ```
+
+            For example:
+
+            ```
+            pip install C:\Downloads\dlib-19.22.0-cp39-cp39-win_amd64.whl
+            ```
+
+   Make sure to adjust the file name and path according to the version you downloaded and your Python version.
+
+
+    ```bash
+    pip install path/to/the/dlibfile/
+    ```
+
+3. **Install Dependencies**: Install required Python packages from `requirements.txt`:
    ```bash
    pip install -r requirements.txt
    ```
