@@ -14,7 +14,7 @@ Welcome to the Gesture Control Attendance System! This system allows you to take
    pip install -r requirements.txt
    ```
 
-3. **Download Dlib**: Download the Dlib library from [external link](https://github.com/z-mahmud22/Dlib_Windows_Python3.x) and install it according to the instructions provided.
+3. **Download Dlib**: Download the Dlib library from [GitHub](https://github.com/z-mahmud22/Dlib_Windows_Python3.x) and install it according to the instructions provided.
 
 ## Database Setup
 
